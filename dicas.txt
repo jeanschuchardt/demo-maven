@@ -1,4 +1,4 @@
-Como instalar um container com sonarqube e rodar
+﻿Como instalar um container com sonarqube e rodar
 	docker pull sonarqube
 	
 	docker run -d --name sonarqube -p 9000:9000 sonarqube
@@ -16,3 +16,12 @@ Rodar a aplicação
 	
 Instalar a aplicação sem rodar os testes
 	mvn clean install -Dmaven.test.skip=true
+
+
+
+--
+
+docker pull docker.bintray.io/jfrog/artifactory-oss
+
+
+docker run --name artifactory2 -d -p 7373:7373 docker.bintray.io/jfrog/artifactory-oss
