@@ -24,4 +24,4 @@ Instalar a aplicação sem rodar os testes
 docker pull docker.bintray.io/jfrog/artifactory-oss
 
 
-docker run --name artifactory2 -d -p 7373:7373 docker.bintray.io/jfrog/artifactory-oss
+docker run --name artifactory2 -d -p 8021:8081 docker.bintray.io/jfrog/artifactory-oss
