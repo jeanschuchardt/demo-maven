@@ -9,6 +9,40 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
+<repositories>
+        <repository>
+            <snapshots>
+            <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>libs-release</name>
+            <url>http://localhost:8021/artifactory/libs-release</url>
+        </repository>
+        <repository>
+            <snapshots />
+            <id>snapshots</id>
+            <name>libs-snapshot</name>
+            <url>http://localhost:8021/artifactory/libs-snapshot</url>
+        </repository>
+    </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>libs-release</name>
+          <url>http://localhost:8021/artifactory/libs-release</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>http://localhost:8021/artifactory/libs-snapshot</url>
+        </pluginRepository>
+      </pluginRepositories>
+
+
 	<groupId>com.demo.maven</groupId>
 	<artifactId>demo-maven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
